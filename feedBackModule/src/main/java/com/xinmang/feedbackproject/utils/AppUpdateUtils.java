@@ -2,7 +2,6 @@ package com.xinmang.feedbackproject.utils;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.util.Log;
 
 import com.google.gson.Gson;
@@ -11,9 +10,6 @@ import com.vector.update_app.UpdateAppManager;
 import com.vector.update_app.UpdateCallback;
 import com.xinmang.feedbackproject.bean.UpdateBean;
 import com.xinmang.feedbackproject.http.OkGoUpdateHttpUtil;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  * Created by lipei on 2018/1/30.
