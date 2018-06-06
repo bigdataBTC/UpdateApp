@@ -11,6 +11,9 @@ import com.vector.update_app.UpdateCallback;
 import com.xinmang.feedbackproject.bean.UpdateBean;
 import com.xinmang.feedbackproject.http.OkGoUpdateHttpUtil;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by lipei on 2018/1/30.
  */
@@ -19,10 +22,12 @@ public class AppUpdateUtils {
     private final static String TAG = AppUpdateUtils.class.getName();
     private static String mUpdateUrl = "";//更新的url
     private static String chanel = "";//渠道包的名称
+    private static Map<String ,String> map=new HashMap<>();
 
     public static void initAppUpdate(String url, String chanel_name) {
         mUpdateUrl = url;
         chanel = chanel_name;
+        map.put("id",chanel_name);
 
     }
 
@@ -30,6 +35,7 @@ public class AppUpdateUtils {
         if (mUpdateUrl.isEmpty() || chanel.isEmpty()) {
             return;
         }
+
         new UpdateAppManager
                 .Builder()
                 //必须设置，当前Activity
@@ -38,6 +44,7 @@ public class AppUpdateUtils {
                 .setHttpManager(new OkGoUpdateHttpUtil())
                 //必须设置，更新地址
                 .setUpdateUrl(mUpdateUrl)
+                .setParams(map)
                 //以下设置，都是可选
                 //设置请求方式，默认get
 //                .setPost(false)
