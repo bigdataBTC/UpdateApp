@@ -1,0 +1,19 @@
+<resources>
+    <!-- 中文-->
+    <string name="sugesstion_feedback">意见反馈</string>
+    <string name="sugesstion">请详细描述您遇到的问题或建议,有助于我们快速定位问题,并解决</string>
+    <string name="input_hint">请在此输入您的意见,这将是我们做好产品的指明灯</string>
+    <string name="phoone_hint">联系方式:手机号/邮箱/QQ号码</string>
+    <string name="submit">提交</string>
+    <string name="answer_us">联系我们</string>
+    <string name="qq_answer">QQ联系</string>
+    <string name="send_eamil">发邮箱</string>
+    <string name="loading">提交中...</string>
+    <string name="thanks_feedback">感谢您的反馈</string>
+    <string name="content_not_null">内容不能为空哦</string>
+    <string name="wenquan">问卷调查</string>
+
+
+
+
+</resources>

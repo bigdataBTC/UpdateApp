@@ -1,0 +1,27 @@
+<resources>
+    <!--<string name="app_name">AddFeedBack</string>-->
+
+    <string name="sugesstion_feedback"> Feedback </string>
+        
+    <string name="sugesstion"> Please describe in detail your problem or suggestion, help us to quickly locate the problem and solve </string>
+        
+    <string name="input_hint"> Please enter your comment here, this will be the indicator of our product </string>
+        
+    <string name="phoone_hint"> Contact phone number/Email/QQ number </string>
+        
+    <string name="submit"> submit </string>
+        
+    <string name="answer_us"> Contact us </string>
+        
+    <string name="qq_answer"> QQ Contact </string>
+        
+    <string name="send_eamil"> Email </string>
+        
+    <string name="loading"> Submit ... </string>
+        
+    <string name="thanks_feedback"> Thanks for your feedback </string>
+        
+    <string name="content_not_null"> Content can not be empty Oh </string>
+
+    <string name="wenquan">Questionnaire</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#233034</color>
+    <color name="black_text">#4b4b4b</color>
+    <color name="input_hint">#818383</color>
+    <color name="submit">#268da3</color>
+    <color name="answer_text">#5d6263</color>
+    <color name="button_content">#7f7f7f</color>
+</resources>
